@@ -1,10 +1,19 @@
 ## Table of Contents
 
+- [Nomes Exportados](#exported-names)
 - [Importações](#imports)
 - [Pacotes](#Package) 
 
+## Exported Names (Nomes Exportados)
+- File: [exported-names.go](/basics/exported-names.go)
+
+Depois de importar um pacote você pode consultar os nomes que exporta.
+Em **Go*, um nome é exportado se começa coma letra maiúscula.
+`Foo`é um nome exportado, assim como `FOO`. O nome `foo`não é exportado.
+
+
 ## Imports (Importações)
-* File: [Imports.go](/basic/imports.go)
+* File: [Imports.go](/basics/imports.go)
 
 Este grupo de códigos em parênteses da importação, é a declaração de importação **"consignada"**. Você também pode escrever várias declarações de importação assim:
 
@@ -15,7 +24,7 @@ Mas é um ***"design pattern"*** usar a declaração de importação consignada.
 
 ## Package (Pacotes)
 
-* File: [package.go](/basic/packages.go)
+* File: [package.go](/basics/packages.go)
 
 Cada programa Go é composto de pacotes.
 Programas começam rodando pelo pacote `main`.
