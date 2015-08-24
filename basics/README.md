@@ -1,10 +1,10 @@
 ## Table of Contents
 
-* [Importações](#imports)
-* [Pacotes](#Package) 
+- [Importações](#imports)
+- [Pacotes](#Package) 
 
 ## Imports (Importações)
-* File: [Imports.go](/imports.go)
+* File: [Imports.go](/basic/imports.go)
 
 Este grupo de códigos em parênteses da importação, é a declaração de importação **"consignada"**. Você também pode escrever várias declarações de importação assim:
 
@@ -15,7 +15,7 @@ Mas é um ***"design pattern"*** usar a declaração de importação consignada.
 
 ## Package (Pacotes)
 
-* File: [package.go](/package.go)
+* File: [package.go](/basic/packages.go)
 
 Cada programa Go é composto de pacotes.
 Programas começam rodando pelo pacote `main`.
